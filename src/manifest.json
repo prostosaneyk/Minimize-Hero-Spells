@@ -1,0 +1,7 @@
+{
+  "name": "Minimize Hero Spells",
+  "author": "Ёу",
+  "description": "Reduces visual clutter from hero spell effects.",
+  "version": "1.0.0",
+  "dependencies": ["Minify Spells & Items"]
+}

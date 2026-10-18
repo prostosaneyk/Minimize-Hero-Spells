@@ -1,0 +1,1030 @@
+# Ancient Apparition - Chilling Touch
+# Keeps the buff, recompiled to 24 sprites at 40/s instead of 80 at 180/s, the projectile and its
+# hit, with the aura recompiled to 64 sprites at 60/s instead of 512 at 400/s.
+# The 1024-trail aura layer, the 300-sprite layer at 200/s, the three buff layers under it and the
+# debris, smoke, sparks and twirl behind every projectile are dropped.
+particles/units/heroes/hero_ancient_apparition/ancient_apparition_chilling_touch_aoe_d.vpcf_c
+particles/units/heroes/hero_ancient_apparition/ancient_apparition_chilling_touch_aoe_b.vpcf_c
+particles/units/heroes/hero_ancient_apparition/ancient_apparition_chilling_touch_buff_b.vpcf_c
+particles/units/heroes/hero_ancient_apparition/ancient_apparition_chilling_touch_buff_c.vpcf_c
+particles/units/heroes/hero_ancient_apparition/ancient_apparition_chilling_touch_buff_e.vpcf_c
+particles/units/heroes/hero_ancient_apparition/ancient_apparition_chilling_touch_projectile_trail_debries.vpcf_c
+particles/units/heroes/hero_ancient_apparition/ancient_apparition_chilling_touch_projectile_trail_smoke.vpcf_c
+particles/units/heroes/hero_ancient_apparition/ancient_apparition_chilling_touch_projectile_trail_sparks.vpcf_c
+particles/units/heroes/hero_ancient_apparition/ancient_apparition_chilling_touch_projectile_twirl.vpcf_c
+
+# Ancient Apparition - Cold Feet and Ice Vortex
+# Keeps the ropes of Cold Feet, its marker and the freeze, recompiled to 40 sprites at 40/s instead
+# of 128 at 128/s, and the vortex with its ring and decal, recompiled to 48 sprites at 60/s instead
+# of 512 at 400/s. The dynamic light on every frozen target, the freeze glow, the 48/s sprite layer
+# inside the vortex and the freeze stack fleks and smoke are dropped.
+particles/units/heroes/hero_ancient_apparition/ancient_apparition_cold_feet_e.vpcf_c
+particles/units/heroes/hero_ancient_apparition/ancient_apparition_cold_feet_frozen_glow.vpcf_c
+particles/units/heroes/hero_ancient_apparition/ancient_ice_vortex_b_child.vpcf_c
+particles/units/heroes/hero_ancient_apparition/ancient_apparition_freeze_stacks_fleks.vpcf_c
+particles/units/heroes/hero_ancient_apparition/ancient_apparition_freeze_stacks_smoke.vpcf_c
+
+# Ancient Apparition - Ice Vortex, what it leaves on the ground
+# Keeps the projected decal that marks the zone and the rope swirls over it, recompiled to
+# 24 particles at 10/s instead of 64 at 24/s, drops the 512-sprite layer at 400/s inside it,
+# the 64-sprite layer over it and the 128-sprite layer that lingers.
+particles/units/heroes/hero_ancient_apparition/ancient_ice_vortex_f.vpcf_c
+particles/units/heroes/hero_ancient_apparition/ancient_ice_vortex_g.vpcf_c
+particles/units/heroes/hero_ancient_apparition/ancient_ice_vortex_i.vpcf_c
+
+# Crystal Maiden - Freezing Field
+# Keeps the snow and the explosions readable, with the snow recompiled to 128 sprites instead of 512,
+# drops the 1024-sprite snow layer, the caster snow and the smoke.
+particles/units/heroes/hero_crystalmaiden/maiden_freezing_field_snow_b.vpcf_c
+particles/units/heroes/hero_crystalmaiden/maiden_freezing_field_snow_c.vpcf_c
+particles/units/heroes/hero_crystalmaiden/maiden_freezing_field_caster.vpcf_c
+
+# Crystal Maiden - ice rink (Aghanim's Scepter) and crystal clone
+# Keeps the rink ropes, its glow and the crystals readable,
+# drops the 305 trails of its end, the flash layers, the duplicate cracks and the clone trails.
+particles/units/heroes/hero_crystalmaiden/crystal_maiden_ice_rink_end.vpcf_c
+particles/units/heroes/hero_crystalmaiden/crystal_maiden_ice_rink_flash.vpcf_c
+particles/units/heroes/hero_crystalmaiden/crystal_maiden_ice_rink_base_altanim_core_crack_sml.vpcf_c
+particles/units/heroes/hero_crystalmaiden/crystal_maiden_ice_rink_base_altanim_core_crack.vpcf_c
+particles/units/heroes/hero_crystalmaiden/maiden_crystal_clone_movement_greens.vpcf_c
+particles/units/heroes/hero_crystalmaiden/maiden_crystal_clone_movement_trailburst.vpcf_c
+particles/units/heroes/hero_crystalmaiden/maiden_crystal_clone_end_snow_burst.vpcf_c
+
+# Dark Seer - Ion Shell
+# Keeps the shell readable with three spirits instead of six and a lighter radiance,
+# drops the two 60/s sprite trails behind every spirit, the damage light and its trails.
+particles/units/heroes/hero_dark_seer/dark_seer_ion_shell_spirit_trail_b.vpcf_c
+particles/units/heroes/hero_dark_seer/dark_seer_ion_shell_spirit_trail_d.vpcf_c
+particles/units/heroes/hero_dark_seer/dark_seer_ion_shell_spirit_trail_c.vpcf_c
+particles/units/heroes/hero_dark_seer/dark_seer_ion_shell_damage_spirit_trail_d.vpcf_c
+
+# Dark Seer - Surge, Vacuum and Wall of Replica
+# Drops the 150-sprite surge trail, its light and projected decal, the vacuum refraction and light,
+# and the two 128/s wall scroll layers.
+particles/units/heroes/hero_dark_seer/dark_seer_surge_traild.vpcf_c
+particles/units/heroes/hero_dark_seer/dark_seer_surge_traila.vpcf_c
+particles/units/heroes/hero_dark_seer/dark_seer_surge_trailc.vpcf_c
+particles/units/heroes/hero_dark_seer/dark_seer_vacuum_g.vpcf_c
+particles/units/heroes/hero_dark_seer/dark_seer_vacuum_b.vpcf_c
+particles/units/heroes/hero_dark_seer/dark_seer_wall_of_replica_scroll.vpcf_c
+particles/units/heroes/hero_dark_seer/dark_seer_wall_of_replica_scroll_bot.vpcf_c
+particles/units/heroes/hero_dark_seer/dark_seer_wall_of_replica_scroll_fallback_low.vpcf_c
+particles/units/heroes/hero_dark_seer/dark_seer_wall_of_replica_scroll_bot_fallback_low.vpcf_c
+
+# Dark Willow - Bramble Maze
+# Keeps the projectile, its explosion and the brambles, drops the four duplicate trails,
+# the explosion streaks and the explosion light.
+particles/units/heroes/hero_dark_willow/dark_willow_bramble_projectile_trail_dark.vpcf_c
+particles/units/heroes/hero_dark_willow/dark_willow_bramble_projectile_trail_ember.vpcf_c
+particles/units/heroes/hero_dark_willow/dark_willow_bramble_projectile_trail_bits.vpcf_c
+particles/units/heroes/hero_dark_willow/dark_willow_bramble_projectile_trail_flare.vpcf_c
+particles/units/heroes/hero_dark_willow/dark_willow_bramble_projectile_explosion_streak.vpcf_c
+particles/units/heroes/hero_dark_willow/dark_willow_bramble_projectile_explosion_ground_streak.vpcf_c
+particles/units/heroes/hero_dark_willow/dark_willow_bramble_projectile_explosion_flare.vpcf_c
+particles/units/heroes/hero_dark_willow/dark_willow_bramble_cast_dust_fall.vpcf_c
+
+# Dark Willow - Terrorize and Shadow Realm
+# Keeps the fear debuff, recompiled to 24 sprites instead of 128, drops the 350-sprite shard trails,
+# the 200-sprite ring fleks and the ley conduit streaks.
+particles/units/heroes/hero_dark_willow/dark_willow_wisp_spell_shard_trails.vpcf_c
+particles/units/heroes/hero_dark_willow/dark_willow_wisp_spell_ring_flek.vpcf_c
+particles/units/heroes/hero_dark_willow/dark_willow_wisp_spell_ring_bits.vpcf_c
+particles/units/heroes/hero_dark_willow/dark_willow_leyconduit_marker_npc_streak.vpcf_c
+particles/units/heroes/hero_dark_willow/dark_willow_wisp_spell_flash_light.vpcf_c
+particles/units/heroes/hero_dark_willow/dark_willow_wisp_spell_channel_light.vpcf_c
+
+# Dark Willow - the brambles growing
+# Keeps the bramble models and the ring that shows where they trigger,
+# drops the swirl, the ripple, the endcap, the glow under every root, the ground swirl and cracks
+# and the second tight ring, which all play while the brambles grow.
+particles/units/heroes/hero_dark_willow/dark_willow_bramble_wraith_swirl.vpcf_c
+particles/units/heroes/hero_dark_willow/dark_willow_bramble_wraith_ripple.vpcf_c
+particles/units/heroes/hero_dark_willow/dark_willow_bramble_wraith_endcap.vpcf_c
+particles/units/heroes/hero_dark_willow/dark_willow_bramble_wraith_root_glow.vpcf_c
+particles/units/heroes/hero_dark_willow/dark_willow_bramble_wraith_ground_swirl.vpcf_c
+particles/units/heroes/hero_dark_willow/dark_willow_bramble_wraith_ground_cracks.vpcf_c
+particles/units/heroes/hero_dark_willow/dark_willow_bramble_wraith_ring_tight.vpcf_c
+particles/units/heroes/hero_dark_willow/dark_willow_bramble_ground_cracks.vpcf_c
+
+# Death Prophet - Spirit Siphon
+# Keeps the link rope on every siphon, recompiled to 16 ropes at 16/s instead of 48 at 48/s,
+# drops the two 256-sprite layers at 190/s behind it and the dynamic light.
+particles/units/heroes/hero_death_prophet/death_prophet_spiritsiphon_a3.vpcf_c
+particles/units/heroes/hero_death_prophet/death_prophet_spiritsiphon_a0.vpcf_c
+particles/units/heroes/hero_death_prophet/death_prophet_spiritsiphon_a2.vpcf_c
+
+# Death Prophet - Exorcism
+# Keeps every spirit and its impact, drops the two 128-rope caster trails, the ecto clouds
+# and the per-spirit dynamic light.
+particles/units/heroes/hero_death_prophet/death_prophet_dead_hero_spirit_spawn_trail_caster.vpcf_c
+particles/units/heroes/hero_death_prophet/death_prophet_dead_hero_spirit_end_trail_caster.vpcf_c
+particles/units/heroes/hero_death_prophet/death_prophet_dead_hero_spirit_spawn_ecto03.vpcf_c
+particles/units/heroes/hero_death_prophet/death_prophet_dead_hero_spirit_end_ecto03.vpcf_c
+particles/units/heroes/hero_death_prophet/death_prophet_dead_hero_spirit_end_ecto02.vpcf_c
+particles/units/heroes/hero_death_prophet/death_prophet_dead_hero_spirit_glow_light.vpcf_c
+particles/units/heroes/hero_death_prophet/death_prophet_dead_hero_spirit_spawn_trail.vpcf_c
+
+# Death Prophet - ambient and Silence
+# Drops the always-on 200-sprite refracting hair smoke, the 228 dynamic lights of her death,
+# the silence projectile lights and refraction and four projected silence layers.
+particles/units/heroes/hero_death_prophet/death_prophet_ambient_hair_smoky06.vpcf_c
+particles/units/heroes/hero_death_prophet/death_prophet_death_light.vpcf_c
+particles/units/heroes/hero_death_prophet/death_prophet_death_flash01.vpcf_c
+particles/units/heroes/hero_death_prophet/death_prophet_silence_projectile_impact_light.vpcf_c
+particles/units/heroes/hero_death_prophet/death_prophet_silence_projectile_impact_refract.vpcf_c
+particles/units/heroes/hero_death_prophet/death_prophet_silence_projectile_spark_trail.vpcf_c
+particles/units/heroes/hero_death_prophet/death_prophet_silence_projectile_smoke_trail.vpcf_c
+particles/units/heroes/hero_death_prophet/death_prophet_silence_refract.vpcf_c
+particles/units/heroes/hero_death_prophet/death_prophet_silence_glow_2.vpcf_c
+particles/units/heroes/hero_death_prophet/death_prophet_silence_glow_4.vpcf_c
+particles/units/heroes/hero_death_prophet/death_prophet_silence_glow_5.vpcf_c
+
+# Death Prophet - Exorcism spirits, harder
+# Keeps the spirit itself and its glow, recompiled to 4 sprites at 1/s instead of 16 at 4/s,
+# drops the rise, the spawn and end flashes and the second impact of every spirit.
+particles/units/heroes/hero_death_prophet/death_prophet_dead_hero_spirit_spawn_rise.vpcf_c
+particles/units/heroes/hero_death_prophet/death_prophet_dead_hero_spirit_spawn_flash.vpcf_c
+particles/units/heroes/hero_death_prophet/death_prophet_dead_hero_spirit_end_flash.vpcf_c
+particles/units/heroes/hero_death_prophet/death_prophet_excorcism_attack_impact_death.vpcf_c
+
+# Disruptor - Static Storm
+# Keeps the radius ring and the lightning bolt into every hero readable,
+# drops every smoke layer (the root is recompiled without renderers), the dynamic lights and everything around the bolt.
+particles/units/heroes/hero_disruptor/disruptor_static_storm_smoke.vpcf_c
+particles/units/heroes/hero_disruptor/disruptor_static_storm_smoke_shape.vpcf_c
+particles/units/heroes/hero_disruptor/disruptor_static_storm_smoke_b.vpcf_c
+particles/units/heroes/hero_disruptor/disruptor_staticstorm_charge_electricity.vpcf_c
+particles/units/heroes/hero_disruptor/disruptor_static_storm_boltbodysparks.vpcf_c
+particles/units/heroes/hero_disruptor/disruptor_static_storm_boltconnections_bot.vpcf_c
+particles/units/heroes/hero_disruptor/disruptor_static_storm_light_hero_grnd.vpcf_c
+particles/units/heroes/hero_disruptor/disruptor_static_storm_strike_damageb.vpcf_c
+particles/units/heroes/hero_disruptor/disruptor_staticstorm_strikedam_arcs_below.vpcf_c
+particles/units/heroes/hero_disruptor/disruptor_staticstorm_glowing_wispssparkle.vpcf_c
+
+# Disruptor - Kinetic Field
+# Keeps the wall lines and their edges readable,
+# drops the wall glow, swirls, running lights, screen distortion, dynamic lights and the old flame and arc layers.
+particles/units/heroes/hero_disruptor/disruptor_static_lines_h.vpcf_c
+particles/units/heroes/hero_disruptor/disruptor_static_lines_hbot.vpcf_c
+particles/units/heroes/hero_disruptor/disruptor_static_lines_h_fallback_mid.vpcf_c
+particles/units/heroes/hero_disruptor/disruptor_static_lines_hbot_fallback_mid.vpcf_c
+particles/units/heroes/hero_disruptor/disruptor_static_lines_smoke.vpcf_c
+particles/units/heroes/hero_disruptor/disruptor_static_lines_smoke_fallback_mid.vpcf_c
+particles/units/heroes/hero_disruptor/disruptor_static_lines_scroll.vpcf_c
+particles/units/heroes/hero_disruptor/disruptor_static_lines_scroll_bot.vpcf_c
+particles/units/heroes/hero_disruptor/disruptor_static_lines_scroll_fallback_low.vpcf_c
+particles/units/heroes/hero_disruptor/disruptor_static_lines_scroll_bot_fallback_low.vpcf_c
+particles/units/heroes/hero_disruptor/disruptor_static_lines_i.vpcf_c
+particles/units/heroes/hero_disruptor/disruptor_static_lines_c.vpcf_c
+particles/units/heroes/hero_disruptor/disruptor_static_lines_d.vpcf_c
+particles/units/heroes/hero_disruptor/disruptor_kf_wall_flame.vpcf_c
+particles/units/heroes/hero_disruptor/disruptor_kf_wall_electric_arc.vpcf_c
+particles/units/heroes/hero_disruptor/disruptor_kf_wall_constant_electric_arc.vpcf_c
+particles/units/heroes/hero_disruptor/disruptor_kf_wall_binding.vpcf_c
+particles/units/heroes/hero_disruptor/disruptor_kf_bindingtop.vpcf_c
+
+# Earth Spirit - Magnetize
+# Keeps the magnetized ring on affected units and the lightning link readable,
+# drops the refraction pulse, the ring trails, the rock flecks, the stone arcs and the dynamic light.
+particles/units/heroes/hero_earth_spirit/espirit_magnetize_pulse.vpcf_c
+particles/units/heroes/hero_earth_spirit/espirit_magnetic_ring_c.vpcf_c
+particles/units/heroes/hero_earth_spirit/espirit_magnetize_target_rocks.vpcf_c
+particles/units/heroes/hero_earth_spirit/espirit_stoneismagnetized_xpld.vpcf_c
+particles/units/heroes/hero_earth_spirit/espirit_magnet_arclightning_head_light.vpcf_c
+
+# Earthshaker - Echo Slam
+# Drops every layer of every echo; only the cast itself stays visible.
+# The echo root is recompiled without its dynamic light.
+particles/units/heroes/hero_earthshaker/earthshaker_echoslam_b.vpcf_c
+particles/units/heroes/hero_earthshaker/earthshaker_echoslam_b_alt_b.vpcf_c
+particles/units/heroes/hero_earthshaker/earthshaker_echoslam_end.vpcf_c
+particles/units/heroes/hero_earthshaker/earthshaker_echoslam_b_alt.vpcf_c
+particles/units/heroes/hero_earthshaker/earthshaker_echoslam_a.vpcf_c
+particles/units/heroes/hero_earthshaker/earthshaker_echoslam_c.vpcf_c
+
+# Earthshaker - Slugger (innate, fires on every attack)
+# Keeps only the ground cracks, which show where the attack lands,
+# drops the wedge, the smoke, sparks and the 100 rock models of every attack.
+particles/units/heroes/hero_earthshaker/earthshaker_slugger_smoke.vpcf_c
+particles/units/heroes/hero_earthshaker/earthshaker_slugger_smoke_b.vpcf_c
+particles/units/heroes/hero_earthshaker/earthshaker_slugger_sparks.vpcf_c
+particles/units/heroes/hero_earthshaker/earthshaker_slugger_debris.vpcf_c
+particles/units/heroes/hero_earthshaker/earthshaker_slugger_wedge.vpcf_c
+particles/units/heroes/hero_earthshaker/earthshaker_slugger_endcap.vpcf_c
+
+# Ember Spirit - Flame Guard
+# The shield is recompiled to 40 sprites at 12/s
+# instead of 100 at 30/s, the inner fire to 48 at 5/s instead of 150 at 10/s and the ring of fire
+# on his body to 24 trails at 25/s instead of 512 at 550/s.
+
+# Ember Spirit - Fire Remnant
+# Keeps the remnant, its image, the dash and the hit, with the remnant recompiled to 32 trails
+# instead of 96, the hit to 32 ropes and the dash to 32 sprites at 30/s instead of 96 at 90/s,
+# drops the 96-trail hit shockwave, the two dynamic lights of the hit and the dash, the 128-sprite
+# trail light, the dash refraction, its glow and its second trail base, and the Rubick copies of all
+# of those.
+particles/units/heroes/hero_ember_spirit/ember_spirit_hit_shockwave.vpcf_c
+particles/units/heroes/hero_ember_spirit/ember_spirit_hit_light.vpcf_c
+particles/units/heroes/hero_ember_spirit/ember_spirit_fire_remnant_trail_light.vpcf_c
+particles/units/heroes/hero_ember_spirit/ember_spirit_fire_remnant_trail_light_rubick.vpcf_c
+particles/units/heroes/hero_ember_spirit/ember_spirit_fire_remnant_trail_flash.vpcf_c
+particles/units/heroes/hero_ember_spirit/ember_spirit_fire_remnant_trail_flash_rubick.vpcf_c
+particles/units/heroes/hero_ember_spirit/ember_spirit_remnant_dash_sphere.vpcf_c
+particles/units/heroes/hero_ember_spirit/ember_spirit_remnant_dash_glow.vpcf_c
+particles/units/heroes/hero_ember_spirit/ember_spirit_remnant_dash_light.vpcf_c
+particles/units/heroes/hero_ember_spirit/ember_spirit_remnant_dash_trail_base_b.vpcf_c
+particles/units/heroes/hero_ember_spirit/ember_spirit_rubick_hit_shockwave.vpcf_c
+particles/units/heroes/hero_ember_spirit/ember_spirit_rubick_fire_remnant_ember.vpcf_c
+particles/units/heroes/hero_ember_spirit/ember_spirit_remnant_dash_glow_rubick.vpcf_c
+
+# Ember Spirit - smolder
+# Drops the 512-trail smolder layer at 550/s that burns on him the whole time;
+# its second layer is recompiled to 48 sprites at 50/s instead of 150 at 150/s.
+particles/units/heroes/hero_ember_spirit/ember_spirit_smolderb.vpcf_c
+
+# Ember Spirit - Immolation
+# Keeps one smolder layer, recompiled to 24 sprites at 25/s instead of 150 at 150/s,
+# drops the second 150-sprite layer and the projected decal that carries a dynamic light.
+particles/units/heroes/hero_ember_spirit/ember_spirit_smolderd.vpcf_c
+particles/units/heroes/hero_ember_spirit/ember_spirit_smolderf.vpcf_c
+
+# Enigma - Midnight Pulse
+# Keeps the dark area, and a few denser edge rings readable,
+# drops the wavy ring layers and the dynamic light.
+particles/units/heroes/hero_enigma/enigma_midnight_pulse_b.vpcf_c
+particles/units/heroes/hero_enigma/enigma_midnight_pulse_light.vpcf_c
+
+# Gyrocopter - Call Down
+# Keeps both missiles, their smoke, the explosions and the target marker,
+# drops the 1024-trail spark burst of every explosion, the 256-sprite trail at 440/s
+# and the 240/s flame under the falling missile, the 512-sprite smoke and the three dynamic lights.
+particles/units/heroes/hero_gyrocopter/gyro_calldown_extra_explosion_sparks.vpcf_c
+particles/units/heroes/hero_gyrocopter/gyro_calldown_extra_sparks.vpcf_c
+particles/units/heroes/hero_gyrocopter/gyro_calldown_extra_flame.vpcf_c
+particles/units/heroes/hero_gyrocopter/gyro_calldown_extra_explosion_smoke.vpcf_c
+particles/units/heroes/hero_gyrocopter/gyro_calldown_extra_explosion_flash_light.vpcf_c
+particles/units/heroes/hero_gyrocopter/gyro_calldown_extra_explosion_sphere_b.vpcf_c
+particles/units/heroes/hero_gyrocopter/gyro_calldown_explosion_sphere_b.vpcf_c
+particles/units/heroes/hero_gyrocopter/gyro_call_down_extra_explosion_impact_j.vpcf_c
+
+# Invoker - Chaos Meteor
+# Keeps the meteor, its fire and glow in flight, the landing flash, the ground trail and the flames on burning units readable,
+# drops the landing beam and rays, the trail and burn glows and all dynamic lights.
+particles/units/heroes/hero_invoker/invoker_chaos_meteor_ray.vpcf_c
+particles/units/heroes/hero_invoker/invoker_chaos_meteor_light.vpcf_c
+particles/units/heroes/hero_invoker/invoker_chaos_meteor_fire_trail_b.vpcf_c
+particles/units/heroes/hero_invoker/invoker_chaos_meteor_fire_trail_glow.vpcf_c
+particles/units/heroes/hero_invoker/invoker_chaos_meteor_fly_light.vpcf_c
+particles/units/heroes/hero_invoker/invoker_chaos_meteor_land_beam.vpcf_c
+particles/units/heroes/hero_invoker/invoker_chaos_meteor_burn_debuff_glow.vpcf_c
+particles/units/heroes/hero_invoker/invoker_chaos_meteor_burn_debuff_light.vpcf_c
+
+# Keeper of the Light - Will-O-Wisp
+# Keeps the wisps, their ring and the blind on every target, recompiled to 16 sprites at 10/s
+# instead of 128 at 50/s, drops the 75/s magic layer, the endcap, the streaks, the lines and the sparkles.
+particles/units/heroes/hero_keeper_of_the_light/keeper_dazzling_magic.vpcf_c
+particles/units/heroes/hero_keeper_of_the_light/keeper_dazzling_endcap.vpcf_c
+particles/units/heroes/hero_keeper_of_the_light/keeper_dazzling_streaks.vpcf_c
+particles/units/heroes/hero_keeper_of_the_light/keeper_dazzling_lines.vpcf_c
+particles/units/heroes/hero_keeper_of_the_light/keeper_dazzling_ground_lines.vpcf_c
+particles/units/heroes/hero_keeper_of_the_light/keeper_dazzling_blue_sparkle.vpcf_c
+particles/units/heroes/hero_keeper_of_the_light/keeper_dazzling_set_ground_rocks.vpcf_c
+particles/units/heroes/hero_keeper_of_the_light/keeper_dazzling_set_ground_rocks_glow.vpcf_c
+particles/units/heroes/hero_keeper_of_the_light/keeper_dazzling_flash.vpcf_c
+particles/units/heroes/hero_keeper_of_the_light/keeper_dazzling_debuff_magic.vpcf_c
+particles/units/heroes/hero_keeper_of_the_light/keeper_dazzling_start_rings.vpcf_c
+
+# Keeper of the Light - Solar Bind
+# Keeps the bind beam and a lighter ambient, recompiled to 16 trails at 40/s instead of 32 at 400/s,
+# drops the two other 400/s layers, the body glow and the two dynamic lights.
+particles/units/heroes/hero_keeper_of_the_light/keeper_of_the_light_radiant_bind_glow_up.vpcf_c
+particles/units/heroes/hero_keeper_of_the_light/keeper_of_the_light_radiant_bind_bodyglow.vpcf_c
+particles/units/heroes/hero_keeper_of_the_light/keeper_of_the_light_radiant_bind_warp.vpcf_c
+particles/units/heroes/hero_keeper_of_the_light/keeper_of_the_light_radiant_bind_ambient_down.vpcf_c
+particles/units/heroes/hero_keeper_of_the_light/keeper_of_the_light_radiant_bind_groundfx.vpcf_c
+particles/units/heroes/hero_keeper_of_the_light/keeper_radiant_bind_impact_bits.vpcf_c
+particles/units/heroes/hero_keeper_of_the_light/keeper_radiant_bind_beam_sparks_aura.vpcf_c
+
+# Keeper of the Light - Illuminate, Blinding Light and Mana Leak
+# Keeps the beam and the impacts, drops the 350/s destruction sparkles, the beam light
+# and the 512-trail mana leak sparks.
+particles/units/heroes/hero_keeper_of_the_light/keeper_of_the_light_illuminate_destruction_sparkles.vpcf_c
+particles/units/heroes/hero_keeper_of_the_light/kotl_illuminate_light.vpcf_c
+particles/units/heroes/hero_keeper_of_the_light/keeper_blinding_light_refract.vpcf_c
+particles/units/heroes/hero_keeper_of_the_light/keeper_blinding_light_lightsource.vpcf_c
+particles/units/heroes/hero_keeper_of_the_light/keeper_of_the_light_blinding_light_thinker_e.vpcf_c
+particles/units/heroes/hero_keeper_of_the_light/keeper_mana_leak_beam_sparks.vpcf_c
+
+# Keeper of the Light - Blinding Light fog
+# Drops the smoke that spreads past the radius and the dust inside it;
+# the ring, its glow and its energy stay, they show where the blind lands.
+particles/units/heroes/hero_keeper_of_the_light/keeper_of_the_light_blinding_light_thinker_g.vpcf_c
+particles/units/heroes/hero_keeper_of_the_light/keeper_blinding_light_dust.vpcf_c
+
+# Kunkka - Torrent
+# Keeps the wave, the pool, the main splash and the water column, drops the 300-sprite bubbles
+# at 300/s, the 240-sprite splash, the duplicate splash and trail layers, two refracting wave
+# layers, the refracting splash and the dynamic light.
+particles/units/heroes/hero_kunkka/kunkka_spell_torrent_bubbles_b.vpcf_c
+particles/units/heroes/hero_kunkka/kunkka_spell_torrent_splash_water8.vpcf_c
+particles/units/heroes/hero_kunkka/kunkka_spell_torrent_splash_water3b.vpcf_c
+particles/units/heroes/hero_kunkka/kunkka_spell_torrent_splash_water3c.vpcf_c
+particles/units/heroes/hero_kunkka/kunkka_spell_torrent_splash_water4b.vpcf_c
+particles/units/heroes/hero_kunkka/kunkka_spell_torrent_splash_water4c.vpcf_c
+particles/units/heroes/hero_kunkka/kunkka_spell_torrent_wave_b.vpcf_c
+particles/units/heroes/hero_kunkka/kunkka_spell_torrent_wave_c.vpcf_c
+particles/units/heroes/hero_kunkka/kunkka_spell_torrent_splash_water10.vpcf_c
+particles/units/heroes/hero_kunkka/kunkka_spell_torrent_splash_water2_light.vpcf_c
+
+# Kunkka - Ghostship
+# Keeps the ship, the X that marks where it lands and its ripple,
+# drops the two 256-sprite splashes of its end, the duplicate ripple and the refracting puddle.
+particles/units/heroes/hero_kunkka/kunkka_boat_splash_end.vpcf_c
+particles/units/heroes/hero_kunkka/kunkka_boat_splash_end_e.vpcf_c
+particles/units/heroes/hero_kunkka/kunkka_ghostship_marker_ripple_alt.vpcf_c
+particles/units/heroes/hero_kunkka/kunkka_ghostship_marker_puddle.vpcf_c
+
+# Largo - Frogstomp
+# Keeps the area ring, the froglings, the projectile and the drum ring of every beat,
+# at its full 90 particles so the pulse closes the circle, with two of its three renderers
+# dropped, in both the normal and the Rubick version.
+
+# Largo - Amphibian Rhapsody
+# Keeps the area edge, the buffs and the interface of the rhythm game,
+# drops the drum edge, which is three stacked 90-particle rope layers rebuilt at 20/s,
+# the refraction over the area and the projected shadow under it.
+particles/units/heroes/hero_largo/largo_amphibian_rhapsody_aoe_drum_edge.vpcf_c
+particles/units/heroes/hero_largo/largo_amphibian_rhapsody_aoe_warp.vpcf_c
+particles/units/heroes/hero_largo/largo_amphibian_rhapsody_aoe_shadow.vpcf_c
+
+# Leshrac - ambient, Lightning Storm and Split Earth
+# Drops the always-on 150-sprite glow, the bolt light, the slow debuff, the scepter refraction
+# and the Split Earth lights; the Split Earth edges stay, they show the damage area.
+particles/units/heroes/hero_leshrac/leshrac_ambient_glow.vpcf_c
+particles/units/heroes/hero_leshrac/leshrac_lightning_bolt_glow.vpcf_c
+particles/units/heroes/hero_leshrac/leshrac_lightning_slow.vpcf_c
+particles/units/heroes/hero_leshrac/leshrac_scepter_target.vpcf_c
+particles/units/heroes/hero_leshrac/leshrac_splitearth_lights.vpcf_c
+
+# Lich - Chain Frost
+# Keeps the ball, its mist and the explosion, with the trail recompiled to 48 sprites instead of 256,
+# drops the four other 256-sprite layers, the 256-rope trail and the dynamic light.
+particles/units/heroes/hero_lich/lich_chain_frost_b.vpcf_c
+particles/units/heroes/hero_lich/lich_chain_frost_d.vpcf_c
+particles/units/heroes/hero_lich/lich_chain_frost_light.vpcf_c
+particles/units/heroes/hero_lich/lich_chain_frost_explode_beam.vpcf_c
+particles/units/heroes/hero_lich/lich_chain_frost_frostbound_projectile_flakes.vpcf_c
+particles/units/heroes/hero_lich/lich_chain_frost_frostbound_projectile_mist.vpcf_c
+particles/units/heroes/hero_lich/lich_chain_frost_frostbound_projectile_e.vpcf_c
+particles/units/heroes/hero_lich/lich_chain_frost_frostbound_projectile_light.vpcf_c
+particles/units/heroes/hero_lich/lich_chain_frost_frostbound_projectile_trail.vpcf_c
+particles/units/heroes/hero_lich/lich_chain_frost_frostbound_debris.vpcf_c
+particles/units/heroes/hero_lich/lich_chain_frost_light_rubick.vpcf_c
+particles/units/heroes/hero_lich/lich_chain_frost_trail_rubick.vpcf_c
+particles/units/heroes/hero_lich/lich_chain_frost_explode_beam_rubick.vpcf_c
+
+# Lich - Frost Shield, Frost Blast and Sinister Gaze
+# Drops the two 128-sprite shield layers, the nova light, the pulse smoke and the gaze light.
+particles/units/heroes/hero_lich/lich_frost_armor_c.vpcf_c
+particles/units/heroes/hero_lich/lich_frost_armor_d.vpcf_c
+particles/units/heroes/hero_lich/lich_frost_nova_flash_c.vpcf_c
+particles/units/heroes/hero_lich/lich_ice_age_smoke.vpcf_c
+particles/units/heroes/hero_lich/lich_gaze_eyes_flame_l.vpcf_c
+
+# Lich - Ice Spire
+# Keeps the spire, its ring and the impact pops, with the damage link recompiled to 24 sprites
+# instead of 120 and the rising ropes to 24 at 10/s instead of 64 at 24/s,
+# drops its 128 trails at 230/s and the 48/s sprite layer, both of which run on every damaged unit.
+particles/units/heroes/hero_lich/lich_ice_spire_dmg_connector_trails.vpcf_c
+particles/units/heroes/hero_lich/lich_ice_spire_b_child.vpcf_c
+
+# Lich - Frost Shield pulse
+# Keeps the pulse ring and its ground mark, drops the fleks, the poof and the sparks
+# that play on every enemy the pulse hits.
+particles/units/heroes/hero_lich/lich_ice_age_dmg_flek.vpcf_c
+particles/units/heroes/hero_lich/lich_ice_age_dmg_poof.vpcf_c
+particles/units/heroes/hero_lich/lich_ice_age_dmg_spark.vpcf_c
+
+# Lich - the slow debuff and Sinister Gaze
+# Keeps the frost on every slowed unit, recompiled to 20 sprites at 8/s instead of 128 at 40/s
+# with a bit over double the alpha, and the gaze itself, recompiled to 24 sprites at 16/s
+# instead of 80 at 64/s; the gaze glow, its damage streaks and the pulse steam are removed.
+particles/units/heroes/hero_lich/lich_gaze_glow.vpcf_c
+particles/units/heroes/hero_lich/lich_sinister_gaze_cryophobia_damage_launch.vpcf_c
+particles/units/heroes/hero_lich/lich_ice_age_steam.vpcf_c
+
+# Lich - Chain Frost ball
+# Keeps the rings around the ball and its mist, drops the modulate haze over it
+# in all three versions, it darkens everything the ball passes.
+particles/units/heroes/hero_lich/lich_chain_frost_g.vpcf_c
+particles/units/heroes/hero_lich/lich_chain_frost_g_rubick.vpcf_c
+particles/units/heroes/hero_lich/lich_chain_frost_frostbound_projectile_g.vpcf_c
+particles/units/heroes/hero_lich/lich_chain_frost_frostbound_projectile_f.vpcf_c
+
+# Medusa - Stone Gaze
+# Keeps the ground mark on every petrifying target readable,
+# drops the spotlights, streaks, crumbles, chunks and dust of every target, which scale with the number of targets.
+particles/units/heroes/hero_medusa/medusa_stone_gaze_debuff_streaks02_helper.vpcf_c
+particles/units/heroes/hero_medusa/medusa_stone_gaze_debuff_streaks02a.vpcf_c
+particles/units/heroes/hero_medusa/medusa_stone_gaze_debuff_crumbles.vpcf_c
+particles/units/heroes/hero_medusa/medusa_stone_gaze_debuff_chunks.vpcf_c
+particles/units/heroes/hero_medusa/medusa_stone_gaze_debuff_dust.vpcf_c
+particles/units/heroes/hero_medusa/medusa_stone_gaze_debuff_spotlight01.vpcf_c
+particles/units/heroes/hero_medusa/medusa_stone_gaze_debuff_spotlight02.vpcf_c
+
+# Monkey King - Wukong's Command
+# Keeps the ring that marks the area, the soldiers and their swipe,
+# drops the 120-sprite fur swirl at 120/s inside the ring, the duplicate bright ring and area ring,
+# the 100-sprite glow and the blood of every soldier swipe, the per-attack rings and the dash ropes.
+# The cast keeps its streaks, its ring glow and its ground glyph, they show that the ability
+# is going off.
+particles/units/heroes/hero_monkey_king/monkey_king_furarmy.vpcf_c
+particles/units/heroes/hero_monkey_king/monkey_king_furarmy_ring_bright.vpcf_c
+particles/units/heroes/hero_monkey_king/monkey_king_furarmy_aoe_b.vpcf_c
+particles/units/heroes/hero_monkey_king/monkey_king_furarmy_singlemonkey_attack_swipe_glow.vpcf_c
+particles/units/heroes/hero_monkey_king/monkey_king_furarmy_singlemonkey_attack_hit_blood.vpcf_c
+particles/units/heroes/hero_monkey_king/monkey_king_furarmy_singlemonkey_attack_hit_blood_droplets.vpcf_c
+particles/units/heroes/hero_monkey_king/monkey_king_fur_army_attack_ring_base.vpcf_c
+particles/units/heroes/hero_monkey_king/monkey_king_fur_army_attack_ring_flash.vpcf_c
+
+# Monkey King - Boundless Strike
+# Keeps the ground line that shows where the strike lands, its cross and the impact,
+# with the tip impact recompiled to 32 trails at 20/s instead of 128 at 64/s,
+# drops the two 100-trail pulses, the ground trail and its glow, the debris, the vertical trails,
+# the light flare, the two flame layers, the 128 rock models, the two streak layers and the screen shake.
+particles/units/heroes/hero_monkey_king/mk_strike_path_pulse_trail.vpcf_c
+particles/units/heroes/hero_monkey_king/mk_strike_path_pulse_trail_os.vpcf_c
+particles/units/heroes/hero_monkey_king/mk_strike_path_groundtrail.vpcf_c
+particles/units/heroes/hero_monkey_king/mk_strike_path_groundtrail_glow.vpcf_c
+particles/units/heroes/hero_monkey_king/mk_strike_path_pulse_debris.vpcf_c
+particles/units/heroes/hero_monkey_king/mk_strike_path_pulse_verttrail.vpcf_c
+particles/units/heroes/hero_monkey_king/mk_strike_path_pulse_lightflare.vpcf_c
+particles/units/heroes/hero_monkey_king/mk_strike_path_pulse_flame_a.vpcf_c
+particles/units/heroes/hero_monkey_king/mk_strike_path_pulse_flame_b.vpcf_c
+particles/units/heroes/hero_monkey_king/monkey_king_strike_ground_rocks.vpcf_c
+particles/units/heroes/hero_monkey_king/monkey_king_strike_ground_streaks.vpcf_c
+particles/units/heroes/hero_monkey_king/monkey_king_strike_ground_streaks_l.vpcf_c
+particles/units/heroes/hero_monkey_king/monkey_king_strike_shake.vpcf_c
+particles/units/heroes/hero_monkey_king/monkey_king_strike_ground_dirt1.vpcf_c
+
+# Monkey King - Primal Spring
+# Keeps the landing decal, the shockwave and the sphere, with the landing ring recompiled
+# to 32 trails at 40/s instead of 96 at 150/s,
+# drops its 100-sprite glow, the 128/s ring layer, the refraction, the cast rays and spirals,
+# the streak and the three 64-sprite layers that sit on every slowed unit.
+particles/units/heroes/hero_monkey_king/monkey_king_spring_ring_glow.vpcf_c
+particles/units/heroes/hero_monkey_king/monkey_king_spring_ring_a.vpcf_c
+particles/units/heroes/hero_monkey_king/monkey_king_spring_warp.vpcf_c
+particles/units/heroes/hero_monkey_king/monkey_king_spring_cast_rays.vpcf_c
+particles/units/heroes/hero_monkey_king/monkey_king_spring_cast_spiral.vpcf_c
+particles/units/heroes/hero_monkey_king/monkey_king_spring_cast_spiral_arm_b.vpcf_c
+particles/units/heroes/hero_monkey_king/monkey_king_spring_streak.vpcf_c
+particles/units/heroes/hero_monkey_king/monkey_king_spring_slow_glow.vpcf_c
+particles/units/heroes/hero_monkey_king/monkey_king_spring_slow_energy.vpcf_c
+
+# Monkey King - Wukong's Command, soldier dash
+# Drops the five rope trails behind the soldiers running to their spots.
+particles/units/heroes/hero_monkey_king/monkey_king_fur_army_dash_rope.vpcf_c
+
+# Monkey King - Wukong's Command, harder
+# Keeps the static ring that marks the area, the cast and the soldiers themselves.
+# Drops the second ring, which was rebuilt 100 times a second for the whole duration,
+# the swipe of every soldier attack, the dash puff, the flash on every soldier position
+# and the smoke, swirl, fleks, core and light of every soldier vanishing.
+particles/units/heroes/hero_monkey_king/monkey_king_furarmy_aoe.vpcf_c
+particles/units/heroes/hero_monkey_king/monkey_king_furarmy_singlemonkey_attack_swipe.vpcf_c
+particles/units/heroes/hero_monkey_king/monkey_king_fur_army_dash.vpcf_c
+particles/units/heroes/hero_monkey_king/monkey_king_fur_army_positions_ring_flash.vpcf_c
+particles/units/heroes/hero_monkey_king/monkey_king_fur_army_destroy_smoke.vpcf_c
+particles/units/heroes/hero_monkey_king/monkey_king_fur_army_destroy_smoke_light.vpcf_c
+particles/units/heroes/hero_monkey_king/monkey_king_fur_army_destroy_swirl.vpcf_c
+particles/units/heroes/hero_monkey_king/monkey_king_fur_army_destroy_flek.vpcf_c
+particles/units/heroes/hero_monkey_king/monkey_king_fur_army_destroy_core.vpcf_c
+
+# Monkey King - Wukong's Command, the seals on the ground
+# The mk_dragon seal drawn under every soldier spot and the one under the cast.
+# The cast still reads through its sparks, its ring glow and its ring rope.
+particles/units/heroes/hero_monkey_king/monkey_king_fur_army_positions.vpcf_c
+particles/units/heroes/hero_monkey_king/monkey_king_fur_army_positions_ring_dragon.vpcf_c
+particles/units/heroes/hero_monkey_king/monkey_king_fur_army_cast_ground_glyph.vpcf_c
+particles/units/heroes/hero_monkey_king/monkey_king_fur_army_cast_ground_glyph_child.vpcf_c
+particles/units/heroes/hero_monkey_king/monkey_king_fur_army_cast_ground_glyph_flash.vpcf_c
+
+# Oracle - Rain of Destiny
+# Keeps the rain, its ring, its runes and the malevolent streaks, with the rain recompiled to
+# 60 trails at 100/s instead of 500 at 2500/s, which was by far the heaviest layer on the hero,
+# drops the 250/s impact on every damaged unit and the cast motes.
+particles/units/heroes/hero_oracle/oracle_scepter_rain_of_destiny_damage_impact.vpcf_c
+particles/units/heroes/hero_oracle/oracle_scepter_rain_of_destiny_heal_motes_cast.vpcf_c
+
+# Pangolier - Swashbuckle
+# Keeps the swords, recompiled to 96 sprites at 120/s instead of 256 at 400/s, and one rope trail,
+# drops the 200-sprite mist, the 256-sprite endcap embers and the duplicate rope.
+particles/units/heroes/hero_pangolier/pangolier_swashbuckler_mist.vpcf_c
+particles/units/heroes/hero_pangolier/pangolier_swashbuckler_endcap_embers.vpcf_c
+particles/units/heroes/hero_pangolier/pangolier_swashbuckler_rope_b.vpcf_c
+
+# Pangolier - Shield Crash, Lucky Shot and Rolling Thunder
+# Keeps the shield crash, its shield glow and the roll, with the crash on every hit hero recompiled
+# to 48 sprites at 50/s instead of 164 at 164/s, drops its energy layer, the refracting cast ring,
+# the second magic immunity layer of the shard roll and the disarm impact.
+particles/units/heroes/hero_pangolier/pangolier_tailthump_hero_energy.vpcf_c
+particles/units/heroes/hero_pangolier/pangolier_tailthump_cast.vpcf_c
+particles/units/heroes/hero_pangolier/pangolier_shard_rollup_magic_immune_b.vpcf_c
+particles/units/heroes/hero_pangolier/pangolier_luckyshot_disarm_impact.vpcf_c
+
+# Phoenix - Supernova
+# Keeps one ray per unit, recompiled to 24 trails instead of 128 at 200/s,
+# drops its glow, its dynamic light, the creep rays and the ash.
+particles/units/heroes/hero_phoenix/phoenix_supernova_radiance_streak_glow.vpcf_c
+particles/units/heroes/hero_phoenix/phoenix_supernova_radiance_streak_light.vpcf_c
+particles/units/heroes/hero_phoenix/phoenix_supernova_radiance_creep_streak.vpcf_c
+particles/units/heroes/hero_phoenix/phoenix_supernova_radiance_streak_creep_glow.vpcf_c
+particles/units/heroes/hero_phoenix/phoenix_supernova_radiance_ash.vpcf_c
+
+# Phoenix - Sun Ray, Icarus Dive and Fire Spirits
+# Keeps the burn on every target, recompiled to 16 sprites at 12/s instead of 64 at 50/s,
+# drops the per-target dynamic lights and the spike trails.
+particles/units/heroes/hero_phoenix/phoenix_icarus_dive_burn_debuff_light.vpcf_c
+particles/units/heroes/hero_phoenix/phoenix_sunray_beam_enemy_flash.vpcf_c
+particles/units/heroes/hero_phoenix/phoenix_fire_spirit_burn_spike.vpcf_c
+
+# Primal Beast - Uproar (Aghanim's Scepter roars)
+# Keeps the ground cracks of every roar, which show where the damage lands, recompiled with half the segments, and the mouth glow,
+# drops the projectile flash, all three rings, the dust wave, the mouth streaks, the screen distortion and the screen shake.
+particles/units/heroes/hero_primal_beast/primal_beast_pulverize_tectonic_shift_projectilec.vpcf_c
+particles/units/heroes/hero_primal_beast/primal_beast_roar_ring_aoe.vpcf_c
+particles/units/heroes/hero_primal_beast/primal_beast_roar_ring_aoe_mid.vpcf_c
+particles/units/heroes/hero_primal_beast/primal_beast_roar_ring_aoe_inner.vpcf_c
+particles/units/heroes/hero_primal_beast/primal_beast_roar_dust_wave_aoe.vpcf_c
+particles/units/heroes/hero_primal_beast/primal_beast_roar_distort.vpcf_c
+particles/units/heroes/hero_primal_beast/primal_beast_roar_screenshake.vpcf_c
+particles/units/heroes/hero_primal_beast/primal_beast_roar_streaks.vpcf_c
+particles/units/heroes/hero_primal_beast/primal_beast_roar_mouth_distort_streaks.vpcf_c
+particles/units/heroes/hero_primal_beast/primal_beast_roar_mouth_steam.vpcf_c
+particles/units/heroes/hero_primal_beast/primal_beast_roar_mouth_drips.vpcf_c
+
+# Pudge - Rot
+# Keeps a light static stink cloud over the radius and a light marker on affected units readable,
+# drops the start puff, the glow with its dynamic light, the body and trail spores and the spray on affected units.
+particles/units/heroes/hero_pudge/pudge_rot_body_start.vpcf_c
+particles/units/heroes/hero_pudge/pudge_rot_radius_c.vpcf_c
+particles/units/heroes/hero_pudge/pudge_rot_body_spores.vpcf_c
+particles/units/heroes/hero_pudge/pudge_rot_trail_spores.vpcf_c
+particles/units/heroes/hero_pudge/pudge_rot_trail_spores_child.vpcf_c
+particles/units/heroes/hero_pudge/pudge_rot_recipient_c.vpcf_c
+
+# Queen of Pain - Sonic Wave
+# Keeps two of the three wave lines, its edge and the cast flash readable,
+# drops the 600-sprite wave glow and the third line.
+particles/units/heroes/hero_queenofpain/queen_sonic_wave_c_glow.vpcf_c
+particles/units/heroes/hero_queenofpain/queen_sonic_wave_c.vpcf_c
+
+# Queen of Pain - Scream of Pain
+# Keeps one set of rays, a lighter wave circle and the explosion on every target readable,
+# drops two of the three ray sets and the dark smoke streaks; the wave circle is recompiled to 32 sprites instead of 128.
+particles/units/heroes/hero_queenofpain/queen_scream_of_pain_c.vpcf_c
+particles/units/heroes/hero_queenofpain/queen_scream_of_pain_c_copy.vpcf_c
+particles/units/heroes/hero_queenofpain/queen_scream_of_pain_rope_drk.vpcf_c
+
+# Queen of Pain - Shadow Strike
+# Keeps the dagger, its trail, the poison drip and a brighter glow on the target readable,
+# drops the blood ropes, dagger swirl and wisps of every affected target and the cast cloud;
+# the glow is recompiled denser and the cast body without its renderer.
+particles/units/heroes/hero_queenofpain/queen_shadow_strike_debuff_red.vpcf_c
+particles/units/heroes/hero_queenofpain/queen_shadow_strike_debuff_poison_b.vpcf_c
+particles/units/heroes/hero_queenofpain/queen_shadow_strike_debuff_dagger_glow.vpcf_c
+particles/units/heroes/hero_queenofpain/queen_shadow_strike_body_flash.vpcf_c
+particles/units/heroes/hero_queenofpain/queen_shadow_strike_explosion_points_b.vpcf_c
+
+# Razor - Plasma Field
+# Keeps the field ring and its glow, drops the 256-sprite layer at 1000/s,
+# the 128 dynamic lights at 1000/s, the 64-sprite light layer and the 16 extra lights.
+particles/units/heroes/hero_razor/razor_plasmafield_glow_b.vpcf_c
+particles/units/heroes/hero_razor/razor_plasmafield_light.vpcf_c
+particles/units/heroes/hero_razor/razor_plasmafield_light_b.vpcf_c
+particles/units/heroes/hero_razor/razor_plasmafield_light_d.vpcf_c
+
+# Razor - Eye of the Storm
+# Keeps only the strike itself and the thin arc ring that marks the radius.
+# The rain was 900 additive trails at 948/s over the whole area; the cloud was 32 smoke sprites
+# of 188 to 230 units each at overbright 4, stacked on top of each other; the ground mark is a
+# projected material re-projected for the whole duration; the glow is a second rope layer over
+# every bolt. Those, the dynamic light of every strike and the leaves are dropped.
+particles/units/heroes/hero_razor/storm_lightning_01_glow_b.vpcf_c
+particles/units/heroes/hero_razor/rain_storm_leaves.vpcf_c
+particles/units/heroes/hero_razor/razor_rain_storm_cloud.vpcf_c
+particles/units/heroes/hero_razor/razor_rain_storm_aoe_proj.vpcf_c
+particles/units/heroes/hero_razor/storm_lightning_01_glow.vpcf_c
+
+# Razor - Static Link and Unstable Current
+# Keeps the link beam, the debuff on the target and the arc of the current, recompiled
+# to 120 ropes instead of 500, drops the two 300/s beam layers, the 256-trail layer,
+# the 500-sprite projectile layer, the three buff layers on Razor, the link light
+# and the 128-sprite hit glow.
+particles/units/heroes/hero_razor/razor_static_link_beam_2b.vpcf_c
+particles/units/heroes/hero_razor/razor_static_link_beam_2c.vpcf_c
+particles/units/heroes/hero_razor/razor_static_link_beam_2d.vpcf_c
+particles/units/heroes/hero_razor/razor_static_link_projectile_b.vpcf_c
+particles/units/heroes/hero_razor/razor_static_link_buff_b.vpcf_c
+particles/units/heroes/hero_razor/razor_static_link_buff_c.vpcf_c
+particles/units/heroes/hero_razor/razor_static_link_buff_d.vpcf_c
+particles/units/heroes/hero_razor/razor_static_link_light.vpcf_c
+particles/units/heroes/hero_razor/razor_static_link_hit_glow.vpcf_c
+particles/units/heroes/hero_razor/razor_unstable_current_glow.vpcf_c
+
+# Razor - ambient and whip
+# Drops the two always-on 32-sprite arc layers at 50/s and the whip light.
+particles/units/heroes/hero_razor/razor_ambient_d.vpcf_c
+particles/units/heroes/hero_razor/razor_ambient_h.vpcf_c
+particles/units/heroes/hero_razor/razor_whip_light.vpcf_c
+
+# Razor - Static Link debuff
+# Keeps the debuff on the target and its main layer, drops the two 64-sprite layers at 100/s under it.
+particles/units/heroes/hero_razor/razor_static_link_debuff_b.vpcf_c
+particles/units/heroes/hero_razor/razor_static_link_debuff_c.vpcf_c
+
+# Riki - Tricks of the Trade
+# Keeps the ring, the daggers and their trails readable,
+# drops the ring glow, the glow of every dagger and the burst rings on cast and on end.
+particles/units/heroes/hero_riki/riki_tricks_ring_glow.vpcf_c
+particles/units/heroes/hero_riki/riki_tricks_dagger_plain_glow.vpcf_c
+particles/units/heroes/hero_riki/riki_tricks_cast_rings.vpcf_c
+particles/units/heroes/hero_riki/riki_tricks_cast_flare.vpcf_c
+
+# Ringmaster - Impalement Arts
+# Keeps the dagger, its impact and the endcap, drops the whole bleed on the target:
+# its 148 trails at 175/s, the 512-sprite low-violence version, the feet trails and the refraction.
+particles/units/heroes/hero_ringmaster/ringmaster_dagger_target_bleed.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_dagger_target_bleed_lv.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_dagger_target_bleed_glow.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_dagger_target_bleed_feet_lv.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_dagger_target_bleed_movement_burst_b_lv.vpcf_c
+
+# Ringmaster - Tame the Beast cage
+# Keeps the cage walls and their binding, drops the 400-particle star and flek bursts,
+# the 200/s repel smoke, the flames, the constant arcs and the two dynamic lights.
+particles/units/heroes/hero_ringmaster/ringmaster_kf_wall_stars.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_kf_wall_rise_electricfleks.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_kf_wall_end_electricfleks.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_kf_wall_repel_smoke.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_kf_wall_repel_smokedeep.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_kf_wall_flame.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_kf_wall_constant_electric_arc.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_kf_wall_electric_arc.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_kf_wall_discharge_d.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_kf_wall_end_dischargeglow.vpcf_c
+
+# Ringmaster - Spotlight, Escape Act and the crystal ball
+# Keeps the light shaft, the escape circle and the ball itself, drops the three 999-particle rope layers,
+# the scanlines, the illusion melt layers, the shaft motes and the escape light.
+particles/units/heroes/hero_ringmaster/ringmaster_crystal_ball_start.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_crystal_ball_rope.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_crystal_ball_rope2.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_crystal_ball_scanline_trailing.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_crystal_ball_scanline_heading.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_crystal_ball_smoke.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_spotlight_illusion_magic.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_spotlight_illusion_swirl.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_spotlight_illusion_stretched.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_spotlight_illusion_ember.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_spotlight_illusion_smoke.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_spotlight_lightshaft_motes.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_escape_act_target_light.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_escape_act_target_glyph_flare.vpcf_c
+
+# Ringmaster - Whirling Doom, illusions and items
+# Drops the ult lights, the 255/s hex layer, the 400-sprite illusion burst with its refraction,
+# the 70/s strongman trails and the 300-piece glass.
+particles/units/heroes/hero_ringmaster/ringmaster_ult_lights_deferred.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_hex_magic_b.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_illusion_created.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_illusion_created_b.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_strongman_potion_buff.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_strongman_potion_projectile_endcap_glass.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_punchline_debris_small.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_punchline_warp.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_blinding_light_refract.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_blinding_light_lightsource.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_fear_debuff_spirals.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_box_dust_kickup.vpcf_c
+
+# Ringmaster - Wheel of Wonder
+# Keeps the wheel, its ground trail, its crack ribbon and the radius ring of the blast,
+# drops the 96 trails at 85/s and the 30/s rock models under it, the ground dust, the dagger rings
+# and trail, the destruction and pass-through sparkles, the refraction and the three dynamic lights.
+particles/units/heroes/hero_ringmaster/ringmaster_wheel_ground_sparks.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_wheel_projectile_rocks.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_wheel_ground_dust.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_wheel_dagger_rings.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_wheel_dagger_trail.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_wheel_dagger_destruction_sparkles.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_wheel_dagger_passthru_sparkles.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_wheel_dagger_passthru_blood_ribbon.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_wheel_dagger_bazooka_sparks.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_wheel_dagger_bazooka_back_jet_ribbon.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_wheel_aoe_light.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_wheel_aoe_distort.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_wheel_destroy_warp.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_wheel_destroy_sparks.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_wheel_destroy_smoke_vertical.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_wheel_miss_poof_endcap_light.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_wheel_miss_poof_endcap_dust_smoke.vpcf_c
+
+# Ringmaster - Escape Act
+# Keeps the circle, its edge and the ground mark on the target,
+# drops the 30/s fog inside the circle and the spotlight over the target.
+particles/units/heroes/hero_ringmaster/ringmaster_escape_act_aoe_nightmare_fuel.vpcf_c
+particles/units/heroes/hero_ringmaster/ringmaster_escape_act_target_spotlight.vpcf_c
+
+# Sand King - Sand Storm
+# The three quality roots keep a light sand swirl (16 puffs) and the edge ring as their only children,
+# the separate debris system is dropped.
+particles/units/heroes/hero_sandking/sandking_sandstorm_debris.vpcf_c
+
+# Shadow Fiend - Requiem of Souls
+# Keeps only the flecks trailing every soul, recompiled with about a quarter of the particles,
+# drops the smoke trail, ground cracks, black arcs, rings, head glow and light of every line, the scorched ground and the fleck bursts.
+particles/units/heroes/hero_nevermore/nevermore_requiemofsouls_line_heads_trail.vpcf_c
+particles/units/heroes/hero_nevermore/nevermore_requiemofsouls_line_heads_trail_f.vpcf_c
+particles/units/heroes/hero_nevermore/nevermore_requiemofsouls_line_heads_trail_black.vpcf_c
+particles/units/heroes/hero_nevermore/nevermore_requiemofsouls_line_heads_trail_ring.vpcf_c
+particles/units/heroes/hero_nevermore/nevermore_requiem_head.vpcf_c
+particles/units/heroes/hero_nevermore/nevermore_requiemofsouls_ground_90.vpcf_c
+particles/units/heroes/hero_nevermore/nevermore_requiemofsouls_a.vpcf_c
+particles/units/heroes/hero_nevermore/nevermore_requiemofsouls_b.vpcf_c
+
+# Skywrath Mage - Mystic Flare
+# Keeps the beam and the sparks readable,
+# drops the 120 projected ground decals, the five projected zone layers, the refraction, the dynamic light and the models.
+particles/units/heroes/hero_skywrath_mage/skywrath_mage_mystic_flare_ground_char.vpcf_c
+particles/units/heroes/hero_skywrath_mage/skywrath_mage_mystic_flare_ambient_b.vpcf_c
+particles/units/heroes/hero_skywrath_mage/skywrath_mage_mystic_flare_ambient_d.vpcf_c
+particles/units/heroes/hero_skywrath_mage/skywrath_mage_mystic_flare_ambient_e.vpcf_c
+particles/units/heroes/hero_skywrath_mage/skywrath_mage_mystic_flare_ambient_g.vpcf_c
+particles/units/heroes/hero_skywrath_mage/skywrath_mage_mystic_flare_ambient_h.vpcf_c
+particles/units/heroes/hero_skywrath_mage/skywrath_mage_mystic_flare_ambient_i.vpcf_c
+particles/units/heroes/hero_skywrath_mage/skywrath_mage_mystic_flare_ambient_c.vpcf_c
+particles/units/heroes/hero_skywrath_mage/skywrath_mage_mystic_flare_ambient_j.vpcf_c
+
+# Skywrath Mage - Concussive Shot and Ancient Seal
+# Drops the 320-sprite failure burst, the duplicate projectile halos and trails, the dynamic lights
+# and the 250-trail seal layer.
+particles/units/heroes/hero_skywrath_mage/skywrath_mage_concussive_shot_failure.vpcf_c
+particles/units/heroes/hero_skywrath_mage/skywrath_mage_concussive_shot_light.vpcf_c
+particles/units/heroes/hero_skywrath_mage/skywrath_mage_concussive_shot_projectile_halo_2.vpcf_c
+particles/units/heroes/hero_skywrath_mage/skywrath_mage_concussive_shot_projectile_trail_b.vpcf_c
+particles/units/heroes/hero_skywrath_mage/skywrath_mage_concussive_shot_projectile_trail_c.vpcf_c
+particles/units/heroes/hero_skywrath_mage/skywrath_mage_concussive_shot_slow_debuff.vpcf_c
+particles/units/heroes/hero_skywrath_mage/skywrath_mage_ancient_seal_debuff_c_trails.vpcf_c
+particles/units/heroes/hero_skywrath_mage/skywrath_mage_ancient_seal_debuff_f.vpcf_c
+particles/units/heroes/hero_skywrath_mage/skywrath_mage_ancient_seal_debuff_g.vpcf_c
+particles/units/heroes/hero_skywrath_mage/skywrath_mage_ancient_seal_debuff_h.vpcf_c
+particles/units/heroes/hero_skywrath_mage/skywrath_mage_ancient_seal_debuff_b_trails.vpcf_c
+
+# Snapfire - Mortimer Kisses
+# Keeps the projectile model, the impact flash and the lava pool readable,
+# drops the magma ribbons, the mouth burst, the metaball drips, the impact sparks, rays and extras,
+# the pool flames, glow and bloom, the explosion flashes and every dynamic light;
+# the projectile and impact roots are recompiled without their renderers (16 dynamic lights and 100 metaballs).
+particles/units/heroes/hero_snapfire/hero_snapfire_ultimate_impact_sparks.vpcf_c
+particles/units/heroes/hero_snapfire/hero_snapfire_ultimate_impact_parenttrails.vpcf_c
+particles/units/heroes/hero_snapfire/hero_snapfire_ultimate_impact_rays.vpcf_c
+particles/units/heroes/hero_snapfire/hero_snapfire_ultimate_blob_drips.vpcf_c
+particles/units/heroes/hero_snapfire/hero_snapfire_ultimate_blob_proj.vpcf_c
+particles/units/heroes/hero_snapfire/scepter_hero_snapfire_ultimate_blob_drips.vpcf_c
+particles/units/heroes/hero_snapfire/hero_snapfire_ultimate_mouthsparks.vpcf_c
+particles/units/heroes/hero_snapfire/scepter_hero_snapfire_ultimate_mouthsparks.vpcf_c
+particles/units/heroes/hero_snapfire/hero_snapfire_ult_ground_light.vpcf_c
+particles/units/heroes/hero_snapfire/snapfire_lizard_blobs_arced_explosion_flash_light.vpcf_c
+particles/units/heroes/hero_snapfire/hero_snapfire_ultimate_projectile_ribbon.vpcf_c
+particles/units/heroes/hero_snapfire/hero_snapfire_ultimate_projectile_magma.vpcf_c
+particles/units/heroes/hero_snapfire/scepter_hero_snapfire_ultimate_projectile_ribbon.vpcf_c
+particles/units/heroes/hero_snapfire/scepter_hero_snapfire_ultimate_projectile_magma.vpcf_c
+particles/units/heroes/hero_snapfire/hero_snapfire_ultimate_mouthburst.vpcf_c
+particles/units/heroes/hero_snapfire/scepter_hero_snapfire_ultimate_mouthburst.vpcf_c
+particles/units/heroes/hero_snapfire/hero_snapfire_ultimate_impact_emissive.vpcf_c
+particles/units/heroes/hero_snapfire/hero_snapfire_ultimate_impact_sphere.vpcf_c
+particles/units/heroes/hero_snapfire/hero_snapfire_ult_ground_flames.vpcf_c
+particles/units/heroes/hero_snapfire/snapfire_lizard_blobs_arced_explosion_flameouts.vpcf_c
+particles/units/heroes/hero_snapfire/snapfire_lizard_blobs_arced_explosion_flash_b.vpcf_c
+particles/units/heroes/hero_snapfire/snapfire_lizard_blobs_arced_explosion_flash_c.vpcf_c
+particles/units/heroes/hero_snapfire/snapfire_lizard_blobs_arced_explosion_flash_d.vpcf_c
+particles/units/heroes/hero_snapfire/snapfire_lizard_blobs_arced_explosion_flash_e.vpcf_c
+particles/units/heroes/hero_snapfire/hero_snapfire_ultimate_ground_glow.vpcf_c
+particles/units/heroes/hero_snapfire/hero_snapfire_ult_ground_bloom.vpcf_c
+
+# Sniper - Shrapnel
+# Keeps the zone decals and the impacts, recompiled to 40 sprites instead of 150,
+# drops the three extra impact layers under them, including the 15 dynamic lights.
+particles/units/heroes/hero_sniper/sniper_shrapnel_impacts_b.vpcf_c
+particles/units/heroes/hero_sniper/sniper_shrapnel_impacts_c.vpcf_c
+particles/units/heroes/hero_sniper/sniper_shrapnel_impacts_e.vpcf_c
+
+# Underlord - Firestorm (Q)
+# Keeps the falling chunks, their impacts and the ground marker of the build-up readable,
+# drops the heat distortion, smoke, ash, ember layers and the build-up arcs.
+particles/units/heroes/heroes_underlord/abyssal_underlord_firestorm_heatwarp_hit.vpcf_c
+particles/units/heroes/heroes_underlord/abyssal_underlord_firestorm_impact_glow.vpcf_c
+particles/units/heroes/heroes_underlord/abyssal_underlord_firestorm_wave_chunk_end_b.vpcf_c
+particles/units/heroes/heroes_underlord/abyssal_underlord_firestorm_wave_chunk_smoke.vpcf_c
+particles/units/heroes/heroes_underlord/abyssal_underlord_firestorm_wave_chunks_a0b.vpcf_c
+particles/units/heroes/heroes_underlord/underlord_firestorm_atmos_ash.vpcf_c
+particles/units/heroes/heroes_underlord/underlord_firestorm_trail_ember.vpcf_c
+particles/units/heroes/heroes_underlord/underlord_firestorm_pre_a.vpcf_c
+particles/units/heroes/heroes_underlord/underlord_firestorm_pre_b.vpcf_c
+particles/units/heroes/heroes_underlord/underlord_firestorm_pre_d.vpcf_c
+particles/units/heroes/heroes_underlord/underlord_firestorm_pre_e.vpcf_c
+particles/units/heroes/heroes_underlord/underlord_firestorm_pre_f.vpcf_c
+particles/units/heroes/heroes_underlord/underlord_firestorm_pre_g.vpcf_c
+particles/units/heroes/heroes_underlord/underlord_firestorm_pre_h.vpcf_c
+particles/units/heroes/heroes_underlord/underlord_firestorm_pre_i.vpcf_c
+particles/units/heroes/heroes_underlord/underlord_firestorm_pre_elec.vpcf_c
+
+# Underlord - Pit of Malice (W)
+# Keeps the pit outline, its ground projection and the stun cage readable,
+# drops the cast beam, flash and the decorative arcs of the build-up.
+particles/units/heroes/heroes_underlord/underlord_pit_cast_beam.vpcf_c
+particles/units/heroes/heroes_underlord/underlord_pit_cast_c.vpcf_c
+particles/units/heroes/heroes_underlord/underlord_pit_cast_flash.vpcf_c
+particles/units/heroes/heroes_underlord/underlord_pitofmalice_pre_a.vpcf_c
+particles/units/heroes/heroes_underlord/underlord_pitofmalice_pre_b.vpcf_c
+particles/units/heroes/heroes_underlord/underlord_pitofmalice_pre_g.vpcf_c
+particles/units/heroes/heroes_underlord/underlord_pitofmalice_pre_h.vpcf_c
+particles/units/heroes/heroes_underlord/underlord_pitofmalice_pre_i.vpcf_c
+
+# Undying - Flesh Golem aura and ambient gas
+# Drops the 300-fly swarm, the mouth gas ropes, the per-enemy aura debuff and the always-on gas cloud.
+particles/units/heroes/hero_undying/undying_fg_aura_flies.vpcf_c
+particles/units/heroes/hero_undying/undying_fg_ambient_mouthgas.vpcf_c
+particles/units/heroes/hero_undying/undying_fg_aura_debuff.vpcf_c
+particles/units/heroes/hero_undying/undying_ambient.vpcf_c
+
+# Undying - Decay, Soul Rip and zombies
+# Drops the heaviest smoke and fly layers; the damage and heal ropes stay readable.
+particles/units/heroes/hero_undying/undying_decay_smoke05.vpcf_c
+particles/units/heroes/hero_undying/undying_decay_strength_xfer_flies.vpcf_c
+particles/units/heroes/hero_undying/undying_zombie_death_dust03.vpcf_c
+particles/units/heroes/hero_undying/undying_scepter_tomb_enter_dirt.vpcf_c
+
+# Undying - walk effect light
+# Drops the dynamic light and its dust.
+particles/units/heroes/hero_undying/undying_tnt_wlk_light.vpcf_c
+particles/units/heroes/hero_undying/undying_tnt_wlk_beam_dust.vpcf_c
+
+# Venomancer - Noxious Plague
+# Keeps the projectile, its explosion, the spread ropes with their shockwave and ring,
+# and the slow on every target, drops the 128-sprite spread layer that carries a 1024-sprite child,
+# the 64-sprite spray, the two refracting rings, the smoke and fluid trails, the metaball drips,
+# the sploosh, the virus trails, the launch streaks and the 64-trail explosion points.
+particles/units/heroes/hero_venomancer/venomancer_noxious_plague_spread_e.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_noxious_plague_spread_spray.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_noxious_plague_spread_aoe.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_noxious_plague_spread_f.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_noxious_plague_projectile_trail_smoke.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_noxious_plague_projectile_trail_fluid.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_noxious_plague_projectile_blob_drips.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_noxious_plague_projectile_sploosh.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_noxious_plague_projectile_virus.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_noxious_plague_projectile_launch_streaks.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_noxious_plague_projectile_explosion_points_b.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_noxious_plague_projectile_trail.vpcf_c
+
+# Venomancer - Venomous Gale
+# Keeps the wave, its clouds and the debuff on every target,
+# drops the 256-sprite drip layer at 248/s and the two 128-sprite cloud trails behind the wave.
+particles/units/heroes/hero_venomancer/venomancer_venomousgale_drips.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_venomousgale_cloud_trail.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_venomousgale_cloud_trail_b.vpcf_c
+
+# Venomancer - Poison Nova
+# Keeps the nova ring, its sprites and the poison on every target,
+# drops the 128-sprite layer that carries a 1024-sprite child, the refracting ring,
+# the two 256-particle cast layers and the cast light.
+particles/units/heroes/hero_venomancer/venomancer_poison_nova_e.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_poison_nova_f.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_poison_nova_cast_a.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_poison_nova_cast.vpcf_c
+
+# Venomancer - Plague Wards and Latent Poison
+# Keeps the ward, its spawn decals and the poison debuff on heroes,
+# drops the 100-sprite spawn burst and the dynamic light of every ward, the 64/s rope trail
+# of every ward attack, and the splat at 400/s, the dots, the ash, the ribbon and the explosion
+# points of the poison projectile.
+particles/units/heroes/hero_venomancer/venomancer_ward_spawn_d.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_ward_spawn_g.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_plague_ward_projectile_trail.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_latent_poison_projectile_endcap_splat_impact.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_latent_poison_projectile_endcap_megasmall_dots.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_latent_poison_projectile_endcap_ash.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_latent_poison_projectile_ribbon_2.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_latent_poison_projectile_explosion_points_b.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_latent_poison_projectile_core_dark.vpcf_c
+
+# Venomancer - Noxious Plague on infected units
+# This is what the plague costs once it has spread: sixteen layers on every infected unit.
+# Keeps the overhead marker, its ring and the virus crawling on the body, so it stays clear who
+# is infected, drops the overhead metaballs at 30/s, the overhead virus trails and drips,
+# the 64-sprite ground splash at 50/s, the 100/s rope, the ground smoke, the radial trails,
+# the drips, the rings and the end bits.
+particles/units/heroes/hero_venomancer/venomancer_noxious_contagion_buff_overhead_blob.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_noxious_contagion_buff_overhead_virus.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_noxious_contagion_buff_overhead_drips.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_noxious_contagion_buff_ground_splash.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_noxious_contagion_buff_rope.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_noxious_contagion_buff_ground_smoke.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_noxious_contagion_buff_rad.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_noxious_contagion_buff_drips.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_noxious_plague_spread_rings.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_noxious_contagion_buff_overhead_end_bits.vpcf_c
+particles/units/heroes/hero_venomancer/venomancer_noxious_contagion_buff_overhead_end_drips.vpcf_c
+
+# Warlock - Golem (Rain of Chaos summon)
+# Keeps the base fire on the mane, hands and mouth readable,
+# drops the extra fire, smoke and lava layers and all three dynamic lights, which burn for the whole summon.
+particles/units/heroes/hero_warlock/golem_ambient_fire_mane_b.vpcf_c
+particles/units/heroes/hero_warlock/golem_ambient_fire_mane_c.vpcf_c
+particles/units/heroes/hero_warlock/golem_ambient_fire_mane_f.vpcf_c
+particles/units/heroes/hero_warlock/golem_ambient_fire_mane_smoke.vpcf_c
+particles/units/heroes/hero_warlock/golem_ambient_fire_mane_d.vpcf_c
+particles/units/heroes/hero_warlock/golem_ambient_fire_mane_e.vpcf_c
+particles/units/heroes/hero_warlock/golem_ambient_fire_shoulders.vpcf_c
+particles/units/heroes/hero_warlock/golem_ambient_fire_hand_l_b.vpcf_c
+particles/units/heroes/hero_warlock/golem_ambient_fire_hand_r_b.vpcf_c
+particles/units/heroes/hero_warlock/golem_ambient_fire_mouth_smoke.vpcf_c
+particles/units/heroes/hero_warlock/golem_ambient_fire_mouth_glow.vpcf_c
+particles/units/heroes/hero_warlock/golem_mouth_drips_1.vpcf_c
+particles/units/heroes/hero_warlock/golem_mouth_drips_2.vpcf_c
+particles/units/heroes/hero_warlock/golem_ambient_fire_mane_light.vpcf_c
+particles/units/heroes/hero_warlock/golem_ambient_fire_hand_l_light.vpcf_c
+particles/units/heroes/hero_warlock/golem_ambient_fire_hand_r_light.vpcf_c
+
+# Warlock - Fatal Bonds
+# Keeps the bond ropes, their pulse and the icon on every bound unit readable,
+# drops the duplicate ropes and their sparks.
+particles/units/heroes/hero_warlock/warlock_fatal_bonds_hit_b.vpcf_c
+particles/units/heroes/hero_warlock/warlock_fatal_bonds_hit_c.vpcf_c
+particles/units/heroes/hero_warlock/warlock_fatal_bonds_pulse_core.vpcf_c
+
+# Warlock - Shadow Word
+# Keeps the glyphs on every affected unit readable, recompiled to 48 bigger and brighter sprites instead of 192 faint ones,
+# drops the vapor, the extra rings and ropes and the dynamic light.
+particles/units/heroes/hero_warlock/warlock_shadow_word_buff_vapor.vpcf_c
+particles/units/heroes/hero_warlock/warlock_shadow_word_buff_b.vpcf_c
+particles/units/heroes/hero_warlock/warlock_shadow_word_buff_c.vpcf_c
+particles/units/heroes/hero_warlock/warlock_shadow_word_buff_d.vpcf_c
+particles/units/heroes/hero_warlock/warlock_shadow_word_buff_g.vpcf_c
+particles/units/heroes/hero_warlock/warlock_shadow_word_buff_h.vpcf_c
+particles/units/heroes/hero_warlock/warlock_shadow_word_buff_i.vpcf_c
+particles/units/heroes/hero_warlock/warlock_shadow_word_buff_j.vpcf_c
+particles/units/heroes/hero_warlock/warlock_shadow_word_buff_k.vpcf_c
+particles/units/heroes/hero_warlock/warlock_shadow_word_buff_e.vpcf_c
+particles/units/heroes/hero_warlock/warlock_shadow_word_debuff_j.vpcf_c
+particles/units/heroes/hero_warlock/warlock_shadow_word_debuff_k.vpcf_c
+
+# Warlock - Rain of Chaos
+# Keeps the meteor, the impact and the scorched ground readable,
+# drops both summoning rings, the embers and the fire; the runes are recompiled without their dynamic light.
+particles/units/heroes/hero_warlock/warlock_rain_of_chaos_start_ringb.vpcf_c
+particles/units/heroes/hero_warlock/warlock_rain_of_chaos_start_ring.vpcf_c
+particles/units/heroes/hero_warlock/warlock_rain_of_chaos_ember.vpcf_c
+particles/units/heroes/hero_warlock/warlock_rain_of_chaos_emit_fire.vpcf_c
+particles/units/heroes/hero_warlock/warlock_rain_of_chaos_start_d.vpcf_c
+
+# Warlock - imps (shard)
+# Keeps the explosion core, its shockwave and the ground cracks readable,
+# drops the sparks, embers, ropes and the dynamic light of every imp.
+particles/units/heroes/hero_warlock/warlock_imp_explode_ember.vpcf_c
+particles/units/heroes/hero_warlock/warlock_imp_explode_flek.vpcf_c
+particles/units/heroes/hero_warlock/warlock_imp_explode_sparks.vpcf_c
+particles/units/heroes/hero_warlock/warlock_imp_explode_streak_gather.vpcf_c
+particles/units/heroes/hero_warlock/warlock_imp_explode_rope.vpcf_c
+particles/units/heroes/hero_warlock/warlock_imp_explode_rope_b.vpcf_c
+particles/units/heroes/hero_warlock/warlock_imp_explode_h.vpcf_c
+particles/units/heroes/hero_warlock/warlock_imp_explode_end_smoke.vpcf_c
+particles/units/heroes/hero_warlock/warlock_imp_explode_end_swirl.vpcf_c
+
+# Warlock - Upheaval
+# Keeps one swirl layer readable,
+# drops the duplicate swirls and the two layers of 32 dynamic lights each.
+particles/units/heroes/hero_warlock/warlock_upheaval_darkness.vpcf_c
+particles/units/heroes/hero_warlock/warlock_upheaval_light.vpcf_c
+particles/units/heroes/hero_warlock/warlock_upheaval_c.vpcf_c
+particles/units/heroes/hero_warlock/warlock_upheaval_d.vpcf_c
+particles/units/heroes/hero_warlock/warlock_upheaval_infernal_cast_light.vpcf_c
+particles/units/heroes/hero_warlock/warlock_upheaval_infernal_cast_glow.vpcf_c
+
+# Winter Wyvern - Winter's Curse
+# Keeps the mark over every cursed unit, the ground decal and the frost, with the start recompiled
+# to 32 sprites instead of 100,
+# drops the burning eyes of every cursed unit, the dynamic light over its head, the 100-sprite
+# crystal ring, the beams, the spiral, the ribbon, the outer frost and the ring glow.
+particles/units/heroes/hero_winter_wyvern/wyvern_winters_curse_buff_eye_l.vpcf_c
+particles/units/heroes/hero_winter_wyvern/wyvern_winters_curse_buff_eye_r.vpcf_c
+particles/units/heroes/hero_winter_wyvern/wyvern_winters_curse_overhead_light.vpcf_c
+particles/units/heroes/hero_winter_wyvern/wyvern_winters_curse_ring_crystal.vpcf_c
+particles/units/heroes/hero_winter_wyvern/wyvern_winters_curse_beams.vpcf_c
+particles/units/heroes/hero_winter_wyvern/wyvern_winters_curse_ring_spiral.vpcf_c
+particles/units/heroes/hero_winter_wyvern/wyvern_winters_curse_ribbon.vpcf_c
+particles/units/heroes/hero_winter_wyvern/wyvern_winters_curse_blast_frost_outer.vpcf_c
+particles/units/heroes/hero_winter_wyvern/wyvern_winters_curse_ring_energy.vpcf_c
