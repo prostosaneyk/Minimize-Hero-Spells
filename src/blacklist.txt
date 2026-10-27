@@ -1,3 +1,9 @@
+# Alchemist - Acid Spray
+# Keeps the decal that fills the zone, the bubbles and the debuff on every target,
+# drops the ~400 splash sprites lying over the zone and the 128-sprite smoke drawn twice.
+particles/units/heroes/hero_alchemist/alchemist_acid_spray_i.vpcf_c
+particles/units/heroes/hero_alchemist/alchemist_acid_spray_a.vpcf_c
+
 # Ancient Apparition - Chilling Touch
 # Keeps the buff, recompiled to 24 sprites at 40/s instead of 80 at 180/s, the projectile and its
 # hit, with the aura recompiled to 64 sprites at 60/s instead of 512 at 400/s.
@@ -237,16 +243,10 @@ particles/units/heroes/hero_ember_spirit/ember_spirit_rubick_hit_shockwave.vpcf_
 particles/units/heroes/hero_ember_spirit/ember_spirit_rubick_fire_remnant_ember.vpcf_c
 particles/units/heroes/hero_ember_spirit/ember_spirit_remnant_dash_glow_rubick.vpcf_c
 
-# Ember Spirit - smolder
-# Drops the 512-trail smolder layer at 550/s that burns on him the whole time;
-# its second layer is recompiled to 48 sprites at 50/s instead of 150 at 150/s.
-particles/units/heroes/hero_ember_spirit/ember_spirit_smolderb.vpcf_c
-
 # Ember Spirit - Immolation
-# Keeps one smolder layer, recompiled to 24 sprites at 25/s instead of 150 at 150/s,
-# drops the second 150-sprite layer and the projected decal that carries a dynamic light.
-particles/units/heroes/hero_ember_spirit/ember_spirit_smolderd.vpcf_c
-particles/units/heroes/hero_ember_spirit/ember_spirit_smolderf.vpcf_c
+# Keeps the flames, the ground ring and the scorch on the ground,
+# drops the 512 sparks at 550/s that fly off his body in every direction.
+particles/units/heroes/hero_ember_spirit/ember_spirit_smolderb.vpcf_c
 
 # Enigma - Midnight Pulse
 # Keeps the dark area, and a few denser edge rings readable,
@@ -278,6 +278,50 @@ particles/units/heroes/hero_invoker/invoker_chaos_meteor_fly_light.vpcf_c
 particles/units/heroes/hero_invoker/invoker_chaos_meteor_land_beam.vpcf_c
 particles/units/heroes/hero_invoker/invoker_chaos_meteor_burn_debuff_glow.vpcf_c
 particles/units/heroes/hero_invoker/invoker_chaos_meteor_burn_debuff_light.vpcf_c
+
+# Jakiro - Liquid Fire and Liquid Ice
+# Keeps the burn on every hit unit, recompiled to 40 sprites at 30/s instead of 120 at 80/s,
+# and the ready state on Jakiro, drops the second burn layer on every unit, the dynamic light
+# that came with it and the two lights of the ready glow and the ice flash.
+particles/units/heroes/hero_jakiro/jakiro_liquid_fire_debuff_c.vpcf_c
+particles/units/heroes/hero_jakiro/jakiro_liquid_fire_debuff_light.vpcf_c
+particles/units/heroes/hero_jakiro/jakiro_liquid_fire_ready_glow.vpcf_c
+particles/units/heroes/hero_jakiro/jakiro_liquid_ice_ready_glow.vpcf_c
+particles/units/heroes/hero_jakiro/jakiro_liquid_ice_flash_d.vpcf_c
+
+# Jakiro - Ice Path
+# Keeps the ice of the path, its blocks, its energy and the snow over it, recompiled to 40 sprites
+# at 20/s instead of 100 at 42/s, with the glow of the end blocks at 32 sprites at 60/s instead of
+# 200 at 600/s and the frost on every frozen unit at 40 sprites instead of 128.
+# The two metaball layers, the melt and puddle refraction, the three dynamic lights with the
+# screen shake, the 400/s fleks and the continuous smoke are dropped.
+particles/units/heroes/hero_jakiro/jakiro_ice_path_blobs.vpcf_c
+particles/units/heroes/hero_jakiro/jakiro_ice_path_blob.vpcf_c
+particles/units/heroes/hero_jakiro/jakiro_ice_path_ground_melt.vpcf_c
+particles/units/heroes/hero_jakiro/jakiro_ice_path_puddle.vpcf_c
+particles/units/heroes/hero_jakiro/jakiro_ice_path_light.vpcf_c
+particles/units/heroes/hero_jakiro/jakiro_ice_path_light_and_shake.vpcf_c
+particles/units/heroes/hero_jakiro/jakiro_ice_path_launch_b.vpcf_c
+particles/units/heroes/hero_jakiro/jakiro_ice_path_fleks.vpcf_c
+particles/units/heroes/hero_jakiro/jakiro_ice_path_smoke_continuous.vpcf_c
+
+# Jakiro - Macropyre
+# Keeps the fire of the line, recompiled to 96 sprites instead of 256, its scorch, its width ropes
+# and the ice edge at 64 sprites at 20/s instead of 204 at 40/s, with the hit on every burning unit
+# at 32 sprites instead of 128 in both of its layers.
+# The metaball edge, the refracting edge crystals, the decorative 128-sprite edge layer and the
+# three dynamic lights, one of them on the line itself, are dropped.
+particles/units/heroes/hero_jakiro/jakiro_macropyre_ice_edgeb.vpcf_c
+particles/units/heroes/hero_jakiro/jakiro_macropyre_ice_edgec.vpcf_c
+particles/units/heroes/hero_jakiro/jakiro_macropyre_ice_edgea0.vpcf_c
+particles/units/heroes/hero_jakiro/jakiro_macropyre_ice_edgea1.vpcf_c
+particles/units/heroes/hero_jakiro/jakiro_macropyre_ice_edgea3.vpcf_c
+
+# Jakiro - Dual Breath and Ice Patch
+# Keeps both breaths, with the ice recompiled to 64 sprites at 80/s instead of 256 at 400/s, and
+# the detonation, with its fleks at 48 sprites at 40/s instead of 200 at 150/s, its flash at 32
+# sprites instead of 128 and its frost at 40 at 25/s instead of 128 at 45/s.
+# The dynamic light of each breath is dropped.
 
 # Keeper of the Light - Will-O-Wisp
 # Keeps the wisps, their ring and the blind on every target, recompiled to 16 sprites at 10/s
@@ -420,6 +464,12 @@ particles/units/heroes/hero_lich/lich_chain_frost_g.vpcf_c
 particles/units/heroes/hero_lich/lich_chain_frost_g_rubick.vpcf_c
 particles/units/heroes/hero_lich/lich_chain_frost_frostbound_projectile_g.vpcf_c
 particles/units/heroes/hero_lich/lich_chain_frost_frostbound_projectile_f.vpcf_c
+
+# Mars - Spear of Mars, the fire the shard leaves on the ground
+# The trail spawns a system per segment of the path, each holding 12 fire patches, and every patch
+# spawns its own sprite layer of 256 particles at 25/s drawn additively at an overbright of 5.
+# The patches are recompiled to 4 per segment and the layer to 20 sprites at 6/s.
+# `Minify Spells & Items` already blanks the other three layers of the trail.
 
 # Medusa - Stone Gaze
 # Keeps the ground mark on every petrifying target readable,
@@ -821,6 +871,14 @@ particles/units/heroes/hero_sniper/sniper_shrapnel_impacts_b.vpcf_c
 particles/units/heroes/hero_sniper/sniper_shrapnel_impacts_c.vpcf_c
 particles/units/heroes/hero_sniper/sniper_shrapnel_impacts_e.vpcf_c
 
+# Tinker - March of the Machines, the cosmetic versions
+# `Minify Spells & Items` already blanks the smoke, the spawn and the destruction of the default
+# machines; these are the same layers of the Rollermaw and Cosmic Calling sets, which it misses.
+particles/econ/items/tinker/tinker_motm_rollermaw/tinker_machine_smoke.vpcf_c
+particles/econ/items/tinker/tinker_motm_rollermaw/tinker_machine_destroy.vpcf_c
+particles/econ/items/tinker/tinker_motm_rollermaw/tinker_rollermaw_spawn.vpcf_c
+particles/econ/items/tinker/tinker_motm_rollermaw/tinker_machine_spawn_bb.vpcf_c
+
 # Underlord - Firestorm (Q)
 # Keeps the falling chunks, their impacts and the ground marker of the build-up readable,
 # drops the heat distortion, smoke, ash, ember layers and the build-up arcs.
@@ -939,6 +997,14 @@ particles/units/heroes/hero_venomancer/venomancer_noxious_plague_spread_rings.vp
 particles/units/heroes/hero_venomancer/venomancer_noxious_contagion_buff_overhead_end_bits.vpcf_c
 particles/units/heroes/hero_venomancer/venomancer_noxious_contagion_buff_overhead_end_drips.vpcf_c
 
+# Viper - Nethertoxin
+# Keeps the cast, the projectile in flight, the scorch decal that fills the zone and the bubbles
+# on every target, drops the green haze over the zone, the 64-rope impact burst and the impact flash
+# with its dynamic light.
+particles/units/heroes/hero_viper/viper_nethertoxin_ground_modulate.vpcf_c
+particles/units/heroes/hero_viper/viper_nethertoxin_impact_vibe.vpcf_c
+particles/units/heroes/hero_viper/viper_nethertoxin_explosion_glow.vpcf_c
+
 # Warlock - Golem (Rain of Chaos summon)
 # Keeps the base fire on the mane, hands and mouth readable,
 # drops the extra fire, smoke and lava layers and all three dynamic lights, which burn for the whole summon.
@@ -1011,8 +1077,8 @@ particles/units/heroes/hero_warlock/warlock_upheaval_darkness.vpcf_c
 particles/units/heroes/hero_warlock/warlock_upheaval_light.vpcf_c
 particles/units/heroes/hero_warlock/warlock_upheaval_c.vpcf_c
 particles/units/heroes/hero_warlock/warlock_upheaval_d.vpcf_c
-particles/units/heroes/hero_warlock/warlock_upheaval_infernal_cast_light.vpcf_c
-particles/units/heroes/hero_warlock/warlock_upheaval_infernal_cast_glow.vpcf_c
+particles/econ/items/warlock/warlock_staff_glory/warlock_upheaval_infernal_cast_light.vpcf_c
+particles/econ/items/warlock/warlock_staff_glory/warlock_upheaval_infernal_cast_glow.vpcf_c
 
 # Winter Wyvern - Winter's Curse
 # Keeps the mark over every cursed unit, the ground decal and the frost, with the start recompiled

@@ -20,11 +20,9 @@ Enable **Minify Spells & Items** and **Minimize Hero Spells**, then apply your M
 
 - `src/manifest.json`: mod metadata and dependency.
 - `src/blacklist.txt`: particle effects to disable, with comments describing the changes.
-- `src/files/`: 81 compiled particle replacements.
+- `src/files/`: 134 compiled particle replacements and one model.
 - `src/notes.md`: description for the Minify UI.
 - `src/preview.png`: in-game screenshot used by the community registry.
-
-The particle replacements and blacklist match the original **V1.0** release.
 
 ## Release
 
